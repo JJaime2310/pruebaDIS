@@ -1,0 +1,58 @@
+##################
+# GENERALES
+##################
+.DS_Store
+Thumbs.db
+*.log
+
+##################
+# MAVEN
+##################
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+##################
+# IDEs
+##################
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+##################
+# VAADIN
+##################
+node_modules/
+pnpmfile.js
+vite.generated.ts
+webpack.generated.js
+src/main/frontend/generated/
+
+# TestBench
+drivers/
+error-screenshots/
